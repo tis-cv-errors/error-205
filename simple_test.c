@@ -2,7 +2,9 @@
 
 int main(void) {
     char buf[7];
-    scanf("%6s", buf);
-    printf("%6s",buf);
+    int in;
+    in = scanf("%6s", buf);
+    printf("in = %d",in)
+    printf("buf = %6s",buf);
     return 0;
 }
