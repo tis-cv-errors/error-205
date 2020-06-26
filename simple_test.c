@@ -8,7 +8,7 @@ int main(void) {
         printf("Read nothing!");
     } 
     else {
-        printf("Read %d characters.", in);
+        printf("Read successful.", in);
         printf("buf = %6s", buf);
     }
     return 0;
