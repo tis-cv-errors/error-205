@@ -22,3 +22,10 @@ int main() {
 	printf("\n");
 	return 0;
 }
+
+int main2() {
+	char buf[7];
+	printf("%p, buf);
+	printf("\n");
+	return 0;
+}
